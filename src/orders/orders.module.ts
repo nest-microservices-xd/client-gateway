@@ -11,8 +11,8 @@ import { ClientsModule, Transport } from '@nestjs/microservices';
         name: ORDER_SERVICE,
         transport: Transport.TCP,
         options: {
-          host: envs.orderMicroserviceHost,
-          port: envs.orderMicroservicePort,
+          // host: envs.orderMicroserviceHost,
+          // port: envs.orderMicroservicePort,
         },
       },
     ]),
